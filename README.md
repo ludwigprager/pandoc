@@ -13,7 +13,7 @@ make presentation.pdf
 
 # Example
 
-There is an [example](./example.md) included. The resulting pdf is as follows:
+There is an [example](https://raw.githubusercontent.com/ludwigprager/pandoc/master/example.md) included. The resulting pdf is as follows:
 
 ![](./example.pdf)
 
