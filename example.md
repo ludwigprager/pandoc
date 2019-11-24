@@ -1,9 +1,8 @@
 ---
 fontfamily: merriweather  
 fontfamilyoptions: sfdefault
-title: "Untitled"
 output: powerpoint_presentation
-title: "Landscape and Portrait"
+title: "Pandoc Markdown Example"
 author: "Ludwig Prager"
 date: "Friday, May 31, 2010"
 classoption: landscape
@@ -241,7 +240,6 @@ For more voluminous equations (such as
 $\sum{\frac{(\mu - \bar{x})^2}{n-1}}$), 
 some line spacing disruptions are unavoidable.  
 Math should then be displayed in displayed mode.
-$$\\sum{\frac{(\mu - \bar{x})^2}{n-1}}$$
 
 \newpage
 

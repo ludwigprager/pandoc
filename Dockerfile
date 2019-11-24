@@ -11,8 +11,12 @@ RUN apt-get update -y \
   texlive-bibtex-extra \
   texlive-fonts-recommended \
   fontconfig \
-  lmodern \
-  pandoc
+  lmodern 
+#  pandoc
+
+RUN apt-get -y install wget
+RUN wget https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb
+RUN dpkg -i pandoc-2.7.3-1-amd64.deb
 
 WORKDIR /workdir
 
